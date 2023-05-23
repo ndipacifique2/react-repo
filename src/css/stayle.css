@@ -1,0 +1,179 @@
+body{
+    background-color: #fff;
+}
+.App{
+    height: 91.8vh;
+    display: grid;
+    grid-template-rows: 10% 80% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: "side side hed hed hed"
+                         "side side content content content"
+                        "side side footer footer footer";
+  
+
+}
+    Header{
+        background-color: white;
+        color: black;
+        display: flex;
+        grid-area: hed;
+        align-items: center;
+        justify-content: right;
+        height: 50px;
+    }
+    header ul{
+        text-decoration: none;
+        padding: 10px;
+        display: flex;
+    }
+    header ul li{
+        text-decoration: none;
+        padding: 10px;
+        display: flex;
+    }
+    header ul li a{
+        text-decoration: none;
+        padding: 10px;
+        display: flex;
+
+    }
+    header ul li:hover{
+        background-color:chocolate;
+        color: white;
+        
+    }
+
+    main{
+        background-color: aqua;
+        color: black;
+        grid-area: content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    input text{
+        color: black;
+        background-color: white;
+        height: 20p;
+        width: 50px;
+    }
+
+    .Sidebar{
+        background-color: #fff;
+        color: black;
+        display: flex;
+        grid-area: side;
+        display: grid;
+        padding: 20px;
+        grid-template-columns: 50% 50% 30% ;
+        grid-template-rows: 10% 10% 20% 20% 20% 15%;
+        grid-template-areas: "bus bus bus bus bus"
+                             "bis bis bis bis bis"
+                             "conf conf conf conf conf"
+                             "des des des des des"
+                             "but but but but but"
+                             "tim tim tim tim tim";
+
+    }
+    .bus{
+        background-color: white;
+        font-size: 30px;
+        color: brown;
+        display: flex;
+        grid-area: bus;
+        left: 20%;
+        left: 10px;
+    }
+    .bis{
+        background-color: white;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        grid-area: bis;
+        left: 10px;
+    }
+    h1 {
+        background-color: rgb(10, 148, 17);
+        color: #fff;
+      }
+    .conf{
+        background-color: white;
+        display: flex;
+        font-size: 30px;
+        font-weight: 14;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+        align-items: left;
+        grid-area: conf;
+        left: 10px;
+    }
+    .des{
+        background-color: white;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        grid-area: des;
+        left: 10px;
+        padding-top: 10px;
+    }
+    .but{
+        background-color: white;
+        display: flex;
+        right: 20%;
+      justify-content: left;
+        align-items: center;
+        grid-area: but;
+        left: 10px;
+    }
+    button{
+        background-color: green;
+        color: white;
+        height: 50px;
+        width: 200px;
+        border-radius: 40px;
+        padding-left:10px ;
+        
+
+    }
+    button :hover{
+        background-color: black;
+        color: white;
+
+    }
+    .tim{
+        background-color: white;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        grid-area: tim;
+       padding-top:20px ;
+    }
+    footer{
+        background-color: #fff;
+        color: black;
+        display: flex;
+        grid-area: footer;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Home{
+        background-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .avatar {
+        vertical-align: middle;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+      }
+    .About{
+        background-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
