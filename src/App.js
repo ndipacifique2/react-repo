@@ -13,16 +13,18 @@ import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import NumberCounter from './assignment/NumberCounter';
 import Mapping from './assignment/Mapping';
 import { useState } from 'react';
+import Fetch from './assignment/Fetch';
 
 function App() {
-  const [Students, setStudents] =useState([{name:"kanyana", age:20,} ,{name:"pacifique", age:40}]);
+  //const [Students, setStudents] =useState([{name:"kanyana", age:20,} ,{name:"pacifique", age:40}]);
   //     const alerts = () => {
   //       alert("button clicked");
   //     }
   return (
     <div className="App">
        {/* <NumberCounter/> */}
-       <Mapping Students={Students}/>
+       {/* <Mapping Students={Students}/> */}
+       <Fetch/>
        </div>
        
 //       <Router>
