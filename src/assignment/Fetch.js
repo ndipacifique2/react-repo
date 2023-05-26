@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import Axios from 'axios';
+
 
 const Fetch = ( ) =>{
     const [data, setData] = useState([]);
@@ -10,11 +10,11 @@ const Fetch = ( ) =>{
     });
     return(
         <div>
-            {data.map((item) => (
+            {/* {data.map((item) => (
 <div>
-<button onClick={data}> Generate fact</button>
+<button onClick={item.data}> Generate fact</button>
 </div>
-            ))}
+            ))} */}
         
       
         </div>

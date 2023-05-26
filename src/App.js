@@ -14,6 +14,7 @@ import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Mapping from './assignment/Mapping';
 import { useState } from 'react';
 import Fetch from './assignment/Fetch';
+import Respons from './assignment/Respons';
 
 function App() {
   //const [Students, setStudents] =useState([{name:"kanyana", age:20,} ,{name:"pacifique", age:40}]);
@@ -24,7 +25,8 @@ function App() {
     <div className="App">
        {/* <NumberCounter/> */}
        {/* <Mapping Students={Students}/> */}
-       <Fetch/>
+       {/* <Fetch/> */}
+       <Respons/>
        </div>
        
 //       <Router>

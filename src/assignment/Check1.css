@@ -7,10 +7,29 @@ body{
     color: black;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+   
 
 }
+.nav{
+  background-color: yellow;
+  color: black;
+  display: flex;
+  height: 50px;
+width: 1500px;
+}
+
+.nav ul{
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+}
+.nav ul li{
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+}
+
+
 .desc{
     background-color: aqua;
     color: white;
@@ -41,8 +60,8 @@ body{
   }
   
   @media screen and (max-width: 600px) {
-    button {
-      margin-bottom: 10px;
-      width: 100%;
+    .nav {
+      display: grid;
+      grid-template-rows: 1;
     }
   }
