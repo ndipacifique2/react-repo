@@ -1,6 +1,5 @@
 
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
-// import './css/stayle.css';
+//  // import './css/stayle.css';
 // import Footer from './components/Footer';
 // import Header from './components/Header';
 // import Sidebar from './components/Sidebar';
@@ -11,10 +10,11 @@ import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import './css/touchin.css'; 
 // import Form from './assignment/Form';
 // import NumberCounter from './assignment/NumberCounter';
-import Mapping from './assignment/Mapping';
-import { useState } from 'react';
-import Fetch from './assignment/Fetch';
+// import { useState } from 'react';
+// import Fetch from './assignment/Fetch';
+// import { icons } from 'react-icons';
 import Respons from './assignment/Respons';
+import Toast from './assignment/Toast'
 
 function App() {
   //const [Students, setStudents] =useState([{name:"kanyana", age:20,} ,{name:"pacifique", age:40}]);
@@ -26,7 +26,8 @@ function App() {
        {/* <NumberCounter/> */}
        {/* <Mapping Students={Students}/> */}
        {/* <Fetch/> */}
-       <Respons/>
+       {/* <Respons/> */}
+       <Toast/>
        </div>
        
 //       <Router>
