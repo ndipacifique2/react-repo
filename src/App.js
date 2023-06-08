@@ -13,7 +13,9 @@
 // import { useState } from 'react';
 // import Fetch from './assignment/Fetch';
 // import { icons } from 'react-icons';
-import Respons from './assignment/Respons';
+// import Respons from './assignment/Respons';
+import GoalsForm from './Goals/GoalsForm';
+import ViewGoals from './Goals/ViewGoals';
 import Toast from './assignment/Toast'
 
 function App() {
@@ -26,8 +28,10 @@ function App() {
        {/* <NumberCounter/> */}
        {/* <Mapping Students={Students}/> */}
        {/* <Fetch/> */}
-       {/* <Respons/> */}
-       <Toast/>
+        {/* <Respons/> */}
+       {/* <Toast/> */}
+       {/* <GoalsForm/> */}
+       <ViewGoals/>
        </div>
        
 //       <Router>

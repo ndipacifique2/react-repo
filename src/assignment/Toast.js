@@ -4,6 +4,11 @@ let Toast = () =>{
 
     const notify = () =>{
         toast("basic notificatiion ");
+        toast.info("no informtion ");
+        toast.error("no error ");
+        toast("basic notificatiion ");
+        toast("basic notificatiion ");
+
     };
     return(
 <div>
