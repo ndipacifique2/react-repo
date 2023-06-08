@@ -16,7 +16,8 @@
 // import Respons from './assignment/Respons';
 import GoalsForm from './Goals/GoalsForm';
 import ViewGoals from './Goals/ViewGoals';
-import Toast from './assignment/Toast'
+import Notification from './Goals/Notification';
+import Toast from './assignment/Toast';
 
 function App() {
   //const [Students, setStudents] =useState([{name:"kanyana", age:20,} ,{name:"pacifique", age:40}]);
@@ -31,7 +32,8 @@ function App() {
         {/* <Respons/> */}
        {/* <Toast/> */}
        {/* <GoalsForm/> */}
-       <ViewGoals/>
+       {/* <ViewGoals/> */}
+       <Notification/>
        </div>
        
 //       <Router>

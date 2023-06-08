@@ -204,13 +204,16 @@ button:hover {
 
 /* Table */
 .data-container {
-  margin: 20px;
+  margin-right: 500px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 table {
-  width: 100%;
+  width: 50%;
   border-collapse: collapse;
-  text-align: left;
+  text-align: center;
 }
 
 th, td {
